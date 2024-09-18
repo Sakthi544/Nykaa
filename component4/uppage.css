@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.background-pink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background: rgb(245, 142, 159);
+}
+.account-name{
+    max-width: 410px;
+    width: 100%;
+    padding: 0 0.6rem;
+    margin: 5% auto;
+    border-radius: 0.5rem;
+    padding: 2rem 1.5rem;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0,0,0.1);
+}
+.form-title{
+    text-align: center;
+    font-size: 1.37rem;
+    font-weight: 600;
+    margin-bottom: 1.87rem;
+}
+.input-box .input-wrapper{
+    height: 54px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+}
+.input-box .input-wrapper .input-fire{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 1.06rem;
+    border-radius: 0.31rem;
+    border: 1px solid  #bfb3f2;
+    padding: 0 1.25rem 0 3.12rem;
+    transition: 0.2s ease;
+}
+.input-box .input-wrapper .input-fire:focus{
+    border-color: rgb(245, 142, 159);
+}
+.input-box .input-wrapper .input-fire:focus .umpl{
+    border-color: rgb(245, 142, 159);
+}
+.input-box .input-wrapper .input-fire::placeholder{
+    color: #a395e0;
+
+}
+.input-box .input-wrapper .umpl{
+    color: #a395e0;
+    position: absolute;
+    top: 50%;
+    left: 0.9rem;
+    pointer-events: none;
+    transform: translateY(-50%);
+    font-size: 23px;
+}
+.or-with{
+    margin: 1.5rem 0;
+    text-align: center;
+    font-size: 1.27rem;
+}
+
+.google-facbook .soc-button .font-design{
+    width: 23px;
+}
+
+.google-facbook .soc-button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0.81rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.75rem 0;
+    border-radius: 0.31rem;
+    border: 1px solid #D5CBFF;
+    background-color: #F9F8FF;
+    transition: 0.3s ease;
+    margin-bottom: 15px;
+}
+.google-facbook .soc-button:hover{
+    background: #f1eff9;
+    border-color: rgb(245, 142, 159) ;
+}
+.input-box .button-up{
+    width: 100%;
+    height: 53px;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.125rem;
+    background:  rgb(245, 142, 159);
+    margin-top: 3.19rem;
+    border-radius: 0.31rem;
+    border: none;
+    transition: 0.2s ease;
+}
+
+.button-up:hover{
+    background: rgb(247, 110, 133);
+}
+.forgot-pass{
+    color:rgb(247, 110, 133) ;
+    text-decoration: none;
+}
+.forgot-pass:hover{
+color: #a395e0; 
+}
+.font-design{
+    font-size: 25px;
+}
