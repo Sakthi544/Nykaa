@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.background-theme{
+    background:  #c1bfc5;
+}
+
+.nykaa-collection {
+    margin-top: 2.2rem;
+   
+    animation-name: zoomIn;
+}
+
+.collection-name {
+   
+    margin-left: 1.02rem;
+    margin-bottom: 15px;
+    background:#eae9ec;
+}
+
+.shop-space {
+    border-radius: 100%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.f-m {
+   text-align: center;
+   font-weight: 700;
+}
+
+.product-theme{
+    border-style: none;
+    text-align: center;
+    border-radius: 0.31rem;
+    background-color: #fff;
+    margin: 15px 57px 25px 25px;
+   
+}
+
+.product-logo{
+    width: 170px;
+    
+}
+
+.line-89{
+    text-decoration-line:'line-through';
+}
+
+.color-green{
+    color: rgb(55, 145, 55);
+    margin-bottom: 10px;
+}
+
+.must{
+    color:  rgb(245, 111, 133);
+}
+
+.spl-rates{
+    margin-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+.bag-button{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.5rem;
+    border-radius: 0.31rem;
+    outline: none;
+    border: 1px solid  #bfb3f2;
+    transition: 0.2s ease;
+}
+
+.bag-button:hover {
+     background: rgb(240, 70, 98);
+     font-weight: 500;
+     color: #fff;
+}
